@@ -1,5 +1,7 @@
 # GAMES101作业 xmake版本
 
+Windows平台下能均能运行，Linux/MAC未测试
+
 # 快速开始
 
 自行安装自己平台下的C++编译工具链
@@ -47,7 +49,3 @@ A: 执行`xmake -v` ，查看详细输出信息
 Q: 我想用vs写代码怎么办
 
 A: 执行`xmake project -k vsxmake -m "debug,release"` 生成vs工程文件
-
-# TODO
-
-*   作业8
