@@ -26,11 +26,9 @@ xmake run
 
 # 注意事项
 
-*   作业文档在doc目录下
-
-*   程序运行目录均在自己作业目录
-
-*   模型目录放在项目根目录
+* 作业文档在doc目录下
+* 程序运行目录均在自己作业目录
+* 模型目录放在项目根目录
 
 # FQA
 
@@ -49,3 +47,7 @@ A: 执行`xmake -v` ，查看详细输出信息
 Q: 我想用vs写代码怎么办
 
 A: 执行`xmake project -k vsxmake -m "debug,release"` 生成vs工程文件
+
+# 参考
+
+1. [https://github.com/slicol/Games101-Homework-Win](https://github.com/slicol/Games101-Homework-Win)
