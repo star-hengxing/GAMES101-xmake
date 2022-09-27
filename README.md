@@ -1,20 +1,20 @@
 # GAMES101作业 xmake版本
 
-Windows平台下能均能运行，Linux/MAC未测试
+理论上跨平台，只测试过 Windows，Linux/MAC 未测试
+
+如果第三方库没有预编译版本，Xmake 会手动拉取依赖源码并行编译
 
 # 快速开始
 
-自行安装自己平台下的C++编译工具链
-
-安装[xmake](https://xmake.io/#/zh-cn/guide/installation)
-
-下载代码
+1. 安装 C++ 编译工具链，如 MSVC/Clang/Mingw
+2. 安装 C++ 的 构建系统 + 包管理： [Xmake](https://xmake.io/#/zh-cn/guide/installation)
+3. 下载所有作业源码
 
 ```bash
 git clone https://github.com/star-hengxing/GAMES101-xmake.git
 ```
 
-然后可以进入作业目录测试，比如
+4. 进入作业目录测试，比如
 
 ```bash
 cd src/Assignment1
@@ -26,9 +26,9 @@ xmake run
 
 # 注意事项
 
-* 作业文档在doc目录下
-* 程序运行目录均在自己作业目录
-* 模型目录放在项目根目录
+* 所有作业文档在 doc 目录
+* 所有模型在 models 目录
+* 每个作业**运行环境**都在自己作业目录下，有需要可以在 xmake.lua 里修改`set_rundir`的路径
 
 # FQA
 
@@ -44,7 +44,7 @@ A: 执行`xmake -v` ，查看详细输出信息
 
 
 
-Q: 我想用vs写代码怎么办
+Q: 我想用 vs 写代码怎么办
 
 A: 执行`xmake project -k vsxmake -m "debug,release"` 生成vs工程文件
 
