@@ -24,6 +24,18 @@ xmake run
 
 如果下载包失败请看[FQA](#fqa)
 
+---
+
+假如你是 mac 用户，可能需要以下步骤
+
+安装包管理[Homebrew](https://brew.sh/)，然后安装：
+
+```bash
+brew install gcc xmake eigen opencv
+```
+
+安装成功后，回到上面第三步
+
 # 注意事项
 
 * 所有作业文档在 doc 目录
@@ -69,3 +81,4 @@ A: 执行`xmake -vD` ，查看详细输出信息
 # 参考
 
 1. [https://github.com/slicol/Games101-Homework-Win](https://github.com/slicol/Games101-Homework-Win)
+2. [在M1平台搭建GAMES101开发环境（2022.2）](https://zhuanlan.zhihu.com/p/472114465)
