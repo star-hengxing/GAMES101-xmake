@@ -67,6 +67,16 @@ xmake project -k vsxmake -m "debug,release
 
 更多请查看 xmake 文档 -> https://xmake.io/#/zh-cn/plugin/more_plugins
 
+# 学习资料
+
+- [GAMES101 作业问题整理](https://zhuanlan.zhihu.com/p/375391720)
+- [《GAMES101》作业框架问题详解](https://zhuanlan.zhihu.com/p/509902950)
+- [一篇搞定！GAMES101现代计算机图形学入门（全）](https://zhuanlan.zhihu.com/p/394932478)
+- [计算机图形学系列笔记](https://www.zhihu.com/column/c_1249465121615204352)
+- [【个人笔记】速通计算机图形学基础](https://zhuanlan.zhihu.com/p/539347633)
+- [图形学 - 关于透视矫正插值那些事](https://zhuanlan.zhihu.com/p/403259571)
+- [图形学基础拾遗 - 重新认识剪不断理还乱的矩阵变换](https://zhuanlan.zhihu.com/p/223033896)
+
 # FQA
 
 Q: xmake 下载包失败怎么办  
@@ -78,7 +88,10 @@ A: 可能需要更新你的 msvc 版本
 Q: 编译失败怎么办  
 A: 执行`xmake -vD` ，查看详细输出信息
 
-# 参考
+Q: 怎么学习 Xmake  
+A: [Xmake 新手教程](https://zhuanlan.zhihu.com/p/640701847)
+
+# 鸣谢
 
 1. [https://github.com/slicol/Games101-Homework-Win](https://github.com/slicol/Games101-Homework-Win)
 2. [在M1平台搭建GAMES101开发环境（2022.2）](https://zhuanlan.zhihu.com/p/472114465)
