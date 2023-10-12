@@ -14,5 +14,6 @@ end
 target("RayTracing")
     set_kind("binary")
     add_files("*.cpp")
-    add_headerfiles("Triangle.hpp")
+    add_headerfiles("*.hpp")
+
     set_rundir("$(projectdir)")
