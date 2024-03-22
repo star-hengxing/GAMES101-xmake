@@ -62,7 +62,7 @@ brew install gcc xmake eigen opencv
 ## visual studio
 
 ```bash
-xmake project -k vsxmake -m "debug,release
+xmake project -k vsxmake -m "debug,release"
 ```
 
 更多请查看 xmake 文档 -> https://xmake.io/#/zh-cn/plugin/more_plugins
